@@ -1,0 +1,80 @@
+.container {
+  max-width: 1060px;
+  min-height: 600px;
+  padding: 10px;
+  margin: 5px auto;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: auto; }
+
+body {
+  background: #232B2B;
+  color: #FFFFFF;
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5 {
+  color: #E3AE57; }
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold; }
+
+h2 {
+  text-align: center; }
+
+nav {
+  text-align: center; }
+  nav a {
+    padding: 5px;
+    margin: 3px 5px;
+    border-radius: 5px;
+    background: #DC3D24;
+    color: #FFFFFF;
+    text-decoration: none; }
+  nav a:hover, nav a:visited {
+    background: #FFFFFF;
+    color: #DC3D24; }
+  nav a:hover {
+    text-decoration: underline; }
+
+footer {
+  text-align: center;
+  color: #E3AE57;
+  clear: both; }
+  footer p {
+    margin-top: 20px; }
+
+#bouvier-des-flanders {
+  width: 80%;
+  height: auto;
+  margin: 10px auto; }
+  #bouvier-des-flanders img {
+    width: 80%; }
+
+.large-image {
+  max-width: 750px;
+  margin: 20px auto;
+  padding-bottom: 20px; }
+
+.about {
+  max-width: 50%;
+  margin: 5px;
+  float: right; }
+
+#large {
+  max-width: 40%;
+  height: auto;
+  margin: 5px;
+  float: left; }
+
+.thumbnails {
+  padding: 5px;
+  text-align: center;
+  min-height: 200px;
+  margin: 20px; }
+  .thumbnails img {
+    vertical-align: text-top;
+    text-decoration: none;
+    padding: 2px 10px; }
+
+/*# sourceMappingURL=style.css.map */
